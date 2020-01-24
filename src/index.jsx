@@ -32,9 +32,9 @@ export default class OpenStadComponent extends React.Component {
   }
 
   componentDidMount(prevProps, prevState) {
-    let event = new Event('isReady');
-    self.isReady = true;
-    self.instance.dispatchEvent(event);
+    // let event = new Event('isReady');
+    // self.isReady = true;
+    // self.instance.dispatchEvent(event);
   }
 
 }
