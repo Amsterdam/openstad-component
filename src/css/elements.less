@@ -72,6 +72,53 @@
   
 }
 
+.osc-previous-button {
+
+  position: relative;
+  padding-left: 18px;
+  font-weight: 600;
+  line-height: 44px;
+  color: #004699;
+  cursor: pointer;
+
+  &:before {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 8px;
+    height: 14px;
+    content: '';
+    background-size: 8px 14px;
+    background-repeat: no-repeat;
+    background-image: @osc-arrow-left-blue-image;
+  }
+}
+
+.osc-next-button {
+
+  position: relative;
+  padding: 11px 8px 11px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color:white;
+  background-color: #164995;
+  cursor: pointer;
+
+  &:before {
+    position: absolute;
+    border-left: 17px solid #164995;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-right: 0;
+    top: 0px;
+    right: -17px;
+    width: 0px;
+    height: 0px;
+    content: '';
+  }
+}
+
 .ocs-gray-text {
   color: #9a9a9a;
 }
@@ -169,6 +216,7 @@
 
 }
 
+.osc-choices-guide-editbutton,
 .osc-idea-details-editbutton {
   display: block;
   position: relative;
@@ -183,6 +231,7 @@
   font-weight: 500;
   text-overflow: ellipsis;
   text-align: center;
+  line-height: 44px;
   border-radius: 0;
   border-right: 2px solid #e8e8e8;
   border-bottom: 2px solid #e8e8e8;
