@@ -1,3 +1,5 @@
+# Deze module is deprecated. Verschillende modules, waaronder deze, zijn samengevoegd in https://github.com/Amsterdam/openstad-components/
+
 # Installatie
 
 ```git clone git@github.com:Amsterdam/openstad-component-ideas-on-map.git```
